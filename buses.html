@@ -5,8 +5,15 @@
         <style>
             @import url(home.css);
         </style>
+
+        <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     </head>
     <body id="body">
+
+        <header>
+
         <div id="div1">
             <h1 id="t1">planyourholiday</h1>
             <img src="Images/train.png" alt="image of flight" width="100px" height="100px" align=right>
@@ -14,6 +21,9 @@
             <img src="Images/hotel.jpg" alt="image of flight" width="100px" height="100px" align=right>
             <img src="Images/flight.png" alt="image of flight" width="100px" height="100px" align=right>
         </div>
+
+        </header>
+
         <div id="div2">
             <a href="home.html">Home</a>
             <a href="flights.html">Flights</a>
@@ -22,5 +32,64 @@
             <a href="trains.html">Trains</a>
             <a href="contact.html">Contact</a>
         </div>
+
+        <div id="div6">
+
+            <h1 id="t5">Bus Ticket Booking</h1>
+
+            <form id="f2" action="booknow.html">
+                
+                <label for="oneway">Oneway</label>
+                <input type="radio" id="oneway"  >
+
+                <label for="roundtrip">Roundtrip</label>
+                <input type="radio" id="roundtrip"  ><br>
+
+                <label  for="from" >From</label><br>
+                <input type="text" id="from" name="from"><br>
+
+                <label  for="to" >To</label><br>
+                <input type="text" id="to" name="to"><br>
+
+                <label  for="dep" >Departure</label><br>
+                <input type="date" id="dep" name="dep"><br>
+
+                <label  for="ret" >Return</label><br>
+                <input type="date" id="ret" name="ret"><br>
+
+                <label for="male">Male</label>
+                <input type="radio" id="male"  >
+
+                <label for="female">Female</label>
+                <input type="radio" id="female"  ><br>
+
+                <label  for="name" >Name</label><br>
+                <input type="text" id="name" name="name"><br>
+
+                <label  for="email" >Email</label><br>
+                <input type="email" id="email" name="name"><br>
+
+                <label  for="name" >No. of Guests</label><br>
+                <input type="text" id="name" name="name"><br>
+
+                <label  for="name" >Details of Guests</label><br>
+                <input type="text" id="name" name="name"><br>
+
+                <input type="submit" value="BOOKNOW">
+
+            </form>
+
+            </div>
+
+            <footer id="footer">
+
+                <div>
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-google"></a>
+                </div>
+    
+            </footer>
+
     </body>
 </html>
